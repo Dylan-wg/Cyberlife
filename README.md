@@ -53,6 +53,7 @@ $$\epsilon=max(\epsilon_{min}, \epsilon_{initial}\cdot k^t)$$
 + $\epsilon_{min}=0.05$
 + $k=0.998$
 + $\epsilon$更新频率: 4
++ $\gamma=0.3$
 + 主网络训练频率: 4
 + 目标网络更新频率: 40
 + Buffer size:5000
