@@ -19,7 +19,7 @@ $$\epsilon=max(\epsilon_{min}, \epsilon_{initial}\cdot k^t)$$
 ## 神经网络架构
 ### 输入
 + 尺寸: $(3,16,1)$
-+ 是一个包含当前时刻的环境以及在此之前两个时刻的环境的张量
++ 包含当前时刻的环境以及在此之前两个时刻的环境
 ### 卷积层(Convolution2D)
 + filters: 32
 + kernal size: $(1,1)$
@@ -46,7 +46,7 @@ $$\epsilon=max(\epsilon_{min}, \epsilon_{initial}\cdot k^t)$$
 + units: 6
 + activation: $\sigma (x)=\frac{1}{1+e^{-x}}$
 ### 输出
-+ 输出长度为6的列表，代表六种行为的Q值
++ 输出长度为6，代表六种行为的Q值
 
 ## 相关参数
 + $\epsilon_{initial}=0.99$
